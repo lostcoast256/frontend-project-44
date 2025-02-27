@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-import { greetingMessage } from '../src/index.js'
+import cli from '../index.js';
 
-console.log('Welcome to the Brain Games!')
+console.log('Welcome to the Brain Games!');
 
-greetingMessage()
+cli();
