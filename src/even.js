@@ -16,8 +16,8 @@ export default (name) => {
       win += 1;
     } else {
       win = 0;
-      console.log(`${answer} was a wrong answer. Correct answer was ${!answer}`);
-      console.log(`Let's try again, ${name}`);
+      console.log(`${answer} was a wrong answer. Correct answer was ${!answer}.`);
+      console.log(`Let's try again, ${name}.`);
     }
   }
 };
